@@ -1,0 +1,18 @@
+{
+  "name": "lynx-extensions",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Native extension packages for Lynx and Sparkling.",
+  "packageManager": "pnpm@10.11.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r --if-present build",
+    "clean": "pnpm -r --if-present clean",
+    "typecheck": "pnpm -r --if-present typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

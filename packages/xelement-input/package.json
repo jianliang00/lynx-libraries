@@ -1,0 +1,30 @@
+{
+  "name": "@lynx-extensions/xelement-input",
+  "version": "0.0.1",
+  "description": "Lynx XElement input and textarea NativeUI extension for Sparkling autolink.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "android",
+    "ios",
+    "dist",
+    "lynx.ext.json",
+    "README.md",
+    "UPSTREAM.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": [
+    "lynx",
+    "sparkling",
+    "autolink",
+    "native-ui",
+    "xelement"
+  ]
+}
+

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+coverage/
+.turbo/
+.DS_Store
+
+# Native build output
+.gradle/
+*.xcworkspace/
+Pods/
+DerivedData/
+
