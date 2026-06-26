@@ -1,10 +1,10 @@
-# lynx-extensions
+# lynx-libraries
 
-Native extension monorepo for Lynx and Sparkling.
+Native library monorepo for Lynx Autolink.
 
 ## Packages
 
-- `@lynx-extensions/xelement-input`: `input` and `textarea` NativeUI extension built from Lynx upstream xelement input sources.
+- `@lynx-libraries/xelement-input`: `input` and `textarea` Native Element library built from Lynx upstream xelement input sources.
 
 ## Commands
 

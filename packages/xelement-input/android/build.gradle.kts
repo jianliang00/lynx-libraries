@@ -1,7 +1,10 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
 }
+
+val lynxVersion = providers.gradleProperty("lynxVersion").orElse("3.9.0")
 
 android {
     namespace = "com.lynx.xelement.input"
@@ -23,7 +26,7 @@ android {
 }
 
 dependencies {
-    compileOnly("org.lynxsdk.lynx:lynx:3.6.0")
+    compileOnly("org.lynxsdk.lynx:lynx:${lynxVersion.get()}")
+    kapt("org.lynxsdk.lynx:lynx-processor:${lynxVersion.get()}")
     implementation("androidx.appcompat:appcompat:1.6.1")
 }
-

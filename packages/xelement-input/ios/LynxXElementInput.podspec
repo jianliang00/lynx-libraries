@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name = 'LynxXElementInput'
   s.version = '0.0.2'
-  s.summary = 'Lynx XElement input and textarea NativeUI extension for Sparkling autolink.'
+  s.summary = 'Lynx XElement input and textarea Native Element library for Autolink.'
   s.license = { :type => 'Apache-2.0' }
-  s.homepage = 'https://github.com/lynx-family/lynx'
+  s.homepage = 'https://github.com/jianliang00/lynx-libraries'
   s.author = { 'Lynx Authors' => 'lynx-dev@googlegroups.com' }
-  s.source = { :git => 'https://github.com/lynx-family/lynx.git', :commit => 'fd0be97f176aabebd7c384f99ba0d73f8a867257' }
+  s.source = { :path => '.' }
 
   s.platform = :ios, '12.0'
   s.module_name = 'LynxXElementInput'
