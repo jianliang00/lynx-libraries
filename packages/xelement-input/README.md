@@ -1,15 +1,28 @@
-# @lynx-extensions/xelement-input
+# @lynx-libraries/xelement-input
 
-Sparkling autolink package for Lynx `input` and `textarea` NativeUI components.
+Autolink library package for Lynx `input` and `textarea` Native Element components.
 
 ## Autolink
 
-Sparkling discovers this package through `lynx.ext.json`.
+Lynx discovers this package through `lynx.lib.json`.
 
-- Android UI classes: `com.lynx.xelement.LynxUIInputAutoRegistry`, `com.lynx.xelement.LynxUITextAreaAutoRegistry`
-- iOS UI classes: `LynxUIInputAutoRegistry`, `LynxUITextAreaAutoRegistry`
+```json
+{
+  "platforms": {
+    "android": {
+      "packageName": "com.lynx.xelement",
+      "sourceDir": "android"
+    },
+    "ios": {
+      "sourceDir": "ios",
+      "podspecPath": "ios/LynxXElementInput.podspec"
+    }
+  }
+}
+```
+
+The Android package uses `@LynxElement` and `@LynxShadowNode` markers. The iOS package uses Lynx lazy UI and shadow-node registration macros, which are scanned by `cocoapods-lynx-library`.
 
 ## Source
 
 The native implementation is copied from Lynx upstream `develop` at commit `fd0be97f176aabebd7c384f99ba0d73f8a867257`.
-

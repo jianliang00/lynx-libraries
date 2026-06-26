@@ -1,8 +1,8 @@
 {
-  "name": "lynx-extensions",
+  "name": "lynx-libraries",
   "version": "0.0.0",
   "private": true,
-  "description": "Native extension packages for Lynx and Sparkling.",
+  "description": "Native library packages for Lynx Autolink.",
   "packageManager": "pnpm@10.11.0",
   "workspaces": [
     "packages/*"

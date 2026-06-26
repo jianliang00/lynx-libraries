@@ -14,9 +14,7 @@ import android.text.SpannableStringBuilder
 import android.text.Spanned
 import android.view.Gravity
 import android.view.inputmethod.EditorInfo
-import com.lynx.tasm.behavior.LynxBehavior
 import com.lynx.tasm.behavior.LynxContext
-import com.lynx.tasm.behavior.LynxGeneratorName
 import com.lynx.tasm.behavior.LynxProp
 import com.lynx.tasm.behavior.StylesDiffMap
 import com.lynx.tasm.event.LynxDetailEvent

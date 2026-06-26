@@ -5,13 +5,11 @@
 package com.lynx.xelement
 
 
-import com.lynx.tasm.behavior.LynxBehavior
 import com.lynx.tasm.behavior.LynxContext
-import com.lynx.tasm.behavior.LynxGeneratorName
+import com.lynx.tasm.behavior.LynxElement
 import com.lynx.xelement.input.LynxUIInput
 
-@LynxGeneratorName(packageName = "com.lynx.xelement")
-@LynxBehavior(tagName = ["input"], isCreateAsync = false)
+@LynxElement(name = "input", isCreateAsync = false)
 open class LynxUIInputAutoRegistry(context: LynxContext) : LynxUIInput(context) {
     
 }

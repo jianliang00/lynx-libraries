@@ -9,9 +9,7 @@ import android.os.Build
 import android.text.TextUtils.TruncateAt
 import android.view.Gravity
 import android.view.inputmethod.EditorInfo
-import com.lynx.tasm.behavior.LynxBehavior
 import com.lynx.tasm.behavior.LynxContext
-import com.lynx.tasm.behavior.LynxGeneratorName
 import com.lynx.tasm.behavior.StylesDiffMap
 
 open class LynxUIInput(context: LynxContext, params:Any?) : LynxUIBaseInput(context, params) {
